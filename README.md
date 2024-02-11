@@ -61,6 +61,7 @@ Endpoints at - https://api-docs.igdb.com/#endpoints
   1. If any error is caused due to building wheels for `greenlet` use `xcode-select --install` to install the latest cli tools for MAC.
   2. Adding a logger, use ```loguru``` package instead of using ```print("")``` everytime, this will help sending the logs to a logging system if a need arises for someone.
   3. I will update ```README.md``` as the project progresses.
+  4. Don't forget to set the environment variables from ```.env.example```.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
