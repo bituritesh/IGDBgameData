@@ -40,12 +40,12 @@ Endpoints at - https://api-docs.igdb.com/#endpoints
    ```commandline
    source venv/bin/activate
    ```
-6. Resolve the dependencies by installing them using(currently we don't have any): 
+6. Resolve the dependencies by installing them using: 
    
       ```commandline
       pip3 install -r requirements.txt
       ```
-7. After installing playwright from `requirements.txt` you need to run this command to install the chromium-browser -
+7. After installing playwright from `requirements.txt` you need to run this command to install the chromium-browser:
 
      ```commandline
       python3 -m playwright install chromium
