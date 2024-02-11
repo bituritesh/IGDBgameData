@@ -40,12 +40,12 @@ Endpoints at - https://api-docs.igdb.com/#endpoints
    ```commandline
    source venv/bin/activate
    ```
-6. Resolve the dependencies by installing them using(currently we don't have any): 
+6. Resolve the dependencies by installing them using: 
    
       ```commandline
       pip3 install -r requirements.txt
       ```
-7. After installing playwright from `requirements.txt` you need to run this command to install the chromium-browser -
+7. After installing playwright from `requirements.txt` you need to run this command to install the chromium-browser:
 
      ```commandline
       python3 -m playwright install chromium
@@ -57,9 +57,10 @@ Endpoints at - https://api-docs.igdb.com/#endpoints
    python3 IGDBGenreScrapper.py
       ```
 
-# Trouble shooting:
+# Troubleshooting and Enhancements:
   1. If any error is caused due to building wheels for `greenlet` use `xcode-select --install` to install the latest cli tools for MAC.
-
+  2. Adding a logger, use ```loguru``` package instead of using ```print("")``` everytime, this will help sending the logs to a logging system if a need arises for someone.
+  3. I will update ```README.md``` as the project progresses.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
