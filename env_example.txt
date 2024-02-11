@@ -1,0 +1,12 @@
+IGDB_GAME_API_BASEURL = "https://api.igdb.com/v4/games"
+IGDB_GAME_API_RATELIMIT_CALLS = "4"
+IGDB_GAME_API_CALLS_PERIOD = "1.2"
+
+GSHEET_CREDENTIALS = "/Users/riteshmukhopadhyay/Documents/gameDetailsGsheet/gameGenrePredictor/vernal-maker-382315-37af6c1e1384.json"
+SPREADSHEET_CREDENTIALS = "1IMvAoJnfVJdBfdfCokS_PBYVM8mq1xbFtBephK2tUYc"
+
+IGDB_CLIENT_ID = "usyz3spa2yg21kg7c7sg0i4dk7l5gb"
+IGDB_AUTHORIZATION_TOKEN = "Bearer hgf12ct7can0dsk4r51qdfu21kz9ns"
+
+IGDB_END_GAME_ID = "273450"  # increment this 500 to avoid value error, will address this limitation,
+                            # currently the last ID in IGDB game dataset is unclear
