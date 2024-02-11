@@ -5,12 +5,18 @@
 
 About the project -
 This project has 2 data-gathering parts -
-1. using the IGDB API endpoint - ```https://api.igdb.com/v4/games``` and write to the gsheet.
+1. using the IGDB API endpoint: ```https://api.igdb.com/v4/games``` and write to the gsheet.
 2. Using Beautiful Soup to crawl the web, extract the genre, and write to the gsheet.
 
-To gather data from the API into the gsheet run - ```python3 sheetWriter.py```
+To gather data from the API into the gsheet run:
+```commandline
+   python3 sheetWriter.py
+   ```
 
-To scrap genre data from the IGDB game website and insert it into gsheet run - ```python3 IGDBGenreScrapper.py```
+To scrap genre data from the IGDB game website and insert it into gsheet run:
+```commandline
+   python3 IGDBGenreScrapper.py
+   ```
 
 Endpoints at - https://api-docs.igdb.com/#endpoints
 
